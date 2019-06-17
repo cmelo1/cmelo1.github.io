@@ -1,0 +1,75 @@
+h1 {
+  color: #AAAAAA;
+  font-size: 14pt;
+  font-family: helvetica,tahoma;
+  text-align: center;
+  /*text align method*/
+}
+p.filler{
+    color:black;
+    font-size:10pt;
+    font-family:tahoma,arial;
+    text-align:inherit
+    }
+div.images{
+    width:300px;
+    height:auto;
+}
+h2 { 
+    color: #AAAAAA;
+    font-size: 12pt;
+    font-family: tahoma;
+    text-align: left;
+}
+
+hr {
+    color: #AAAAAA;
+    width: 50px;
+    
+}
+
+div.center{
+    align-content:center
+}
+.center{
+    text-align:center;
+}
+ul.center{
+    text-align:center;
+}
+
+p.center{
+    text-align: center;
+}
+p.left{text-align:left;
+}
+
+img.left{
+    margin-left: auto
+}
+grey-square{
+  background-color: "#AAAAAA";
+  width: 800px;
+  height:800px;
+  margin: 0 auto;
+  /*supposed way of auto centering*/
+}
+/*initiated by <div class="grey-square"></div>*/
+
+.column {
+  float: left;
+  padding: 5px;
+}
+.row::after {
+   content: "";
+  clear: both;
+  display: table; 
+}
+ul.center{
+    text-align:center;
+}
+a.center{
+    text-align:center;
+    align-content: center;
+    
+}
